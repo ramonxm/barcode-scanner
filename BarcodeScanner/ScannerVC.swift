@@ -8,18 +8,9 @@
 import UIKit
 import AVFoundation
 
-enum CameraError: Error {
-    case invalidDeviceInput
-    case invalidScannedValue
-
-    var errorMessage: String {
-        switch self {
-        case .invalidDeviceInput:
-            return "Something is wrong with the camera. We are unable to capture the input."
-        case .invalidScannedValue:
-            return "The value scanned is not valid. This app scans EAN-8 and EAN-13."
-        }
-    }
+enum CameraError: String {
+    case invalidDeviceInput = "Something is wrong with the camera. We are unable to capture the input."
+    case invalidScannedValue = "The value scanned is not valid. This app scans EAN-8 and EAN-13."
 }
 
 
@@ -119,6 +110,7 @@ extension ScannerVC: AVCaptureMetadataOutputObjectsDelegate {
             return
         }
         
+        captureSession.stopRunning()
         scannerDelegate?.didFind(barcode: barcode)
     }
 }

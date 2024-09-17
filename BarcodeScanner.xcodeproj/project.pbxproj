@@ -12,6 +12,7 @@
 		BCF31F222C84D64D00C9DA67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF31F212C84D64D00C9DA67 /* Preview Assets.xcassets */; };
 		BCF31F292C84D6CA00C9DA67 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF31F282C84D6CA00C9DA67 /* BarcodeScannerView.swift */; };
 		BCF31F2B2C8674CD00C9DA67 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF31F2A2C8674CD00C9DA67 /* ScannerVC.swift */; };
+		BCF31F2D2C98FFE400C9DA67 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF31F2C2C98FFE400C9DA67 /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BCF31F212C84D64D00C9DA67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BCF31F282C84D6CA00C9DA67 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 		BCF31F2A2C8674CD00C9DA67 /* ScannerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		BCF31F2C2C98FFE400C9DA67 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				BCF31F2A2C8674CD00C9DA67 /* ScannerVC.swift */,
 				BCF31F1A2C84D64B00C9DA67 /* BarcodeScannerApp.swift */,
 				BCF31F282C84D6CA00C9DA67 /* BarcodeScannerView.swift */,
+				BCF31F2C2C98FFE400C9DA67 /* ScannerView.swift */,
 				BCF31F1E2C84D64D00C9DA67 /* Assets.xcassets */,
 				BCF31F202C84D64D00C9DA67 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCF31F2B2C8674CD00C9DA67 /* ScannerVC.swift in Sources */,
+				BCF31F2D2C98FFE400C9DA67 /* ScannerView.swift in Sources */,
 				BCF31F292C84D6CA00C9DA67 /* BarcodeScannerView.swift in Sources */,
 				BCF31F1B2C84D64B00C9DA67 /* BarcodeScannerApp.swift in Sources */,
 			);
